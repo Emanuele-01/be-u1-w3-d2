@@ -10,6 +10,7 @@ import entità.gestioneventiConstructor;
 
 public class EventDao {
 	private static Logger logger = LoggerFactory.getLogger(EventDao.class);
+	
 	private final EntityManager em;
 	
 	public EventDao (EntityManager em) {
